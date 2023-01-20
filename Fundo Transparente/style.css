@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('imagens/Jellyfish.jpg') no-repeat center center fixed ;
+    background-size: cover;
+}
+
+
+header{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.6em;
+}
+header > h1{
+    color: #a4d814;
+}
+
+main{
+    width: 60vw;
+    height: 65vh;
+    margin: auto;
+}
+div#formu{
+    background-color: rgba(169, 169, 169, 0.4);
+    margin: auto;
+    padding: 8px;
+    min-height: 300px;
+    width: 350px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+}
+div#formu > form > h1{
+    text-align: center;
+    font-size: 2.4em;
+    margin: 10px auto 20px auto;
+}
+div#formu > form > p{
+    width: 260px;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+}
+div#formu > form > p.ent{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+div#formu > form > p.ent > input#iemail{
+    width: 195px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+div#formu > form > p.ent > input#isen{
+    width: 194px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+div#formu > form > p.ent > label{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+div#formu > form > p.ent > a{
+    color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+div#formu > form > p.ent > a:hover{
+    text-decoration: none;
+}
+
+#bt{
+    background-color: white;
+    width: 130px;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: auto;
+}
+footer > a{
+    color: #a4d814;
+}
